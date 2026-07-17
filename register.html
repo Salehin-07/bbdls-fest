@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>নিবন্ধন &middot; Bbdls সাহিত্য উৎসব</title>
+<meta name="description" content="Bbdls সাহিত্য উৎসবে নিবন্ধন করো।" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@500;600&family=Noto+Serif+Bengali:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<a class="skip" href="#main">মূল অংশে যান</a>
+
+<header class="bar">
+  <div class="brand"><a href="index.html"><img src="club_logo.webp" alt="Bbdls ক্লাবের প্রতীক" />Bbdls লিটফেস্ট</a></div>
+  <button class="nav-toggle" aria-label="মেনু খুলুন" aria-expanded="false" aria-controls="primaryNav">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-wrap" id="primaryNav">
+    <nav class="menu" aria-label="প্রধান">
+      <a href="about.html">পরিচিতি</a>
+      <a href="events.html">ইভেন্ট</a>
+      <a href="schedule.html">সময়সূচি</a>
+      <a href="jury.html">বিচারক</a>
+      <a href="committee.html">কমিটি</a>
+      <a href="gallery.html">গ্যালারি</a>
+      <a href="sponsors.html">স্পন্সর</a>
+      <a href="faq.html">জিজ্ঞাসা</a>
+      <a href="contact.html">যোগাযোগ</a>
+    </nav>
+    <a class="cta-small" href="register.html">নিবন্ধন</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="ey">এগিয়ে আসো</div>
+  <h1 class="display">নিবন্ধন</h1>
+  <p>তোমার ইভেন্ট বেছে নাও। আমরা মেইলে তোমার জায়গা নিশ্চিত করি। প্রথম দিন শুরুর আগেই বন্ধ।</p>
+</section>
+
+<section class="block" style="padding-top:1.5rem">
+  <div class="reg-contact reveal">
+    <div class="contact-card">
+      <div class="ey">ইমেইল</div>
+      <p><a href="mailto:litfest@bbdls.example">litfest@bbdls.example</a></p>
+    </div>
+    <div class="contact-card">
+      <div class="ey">ফোন</div>
+      <p><a href="tel:+0000000000">+০০ ০০০০০ ০০০০০</a></p>
+    </div>
+    <div class="contact-card">
+      <div class="ey">গুগল ফর্ম</div>
+      <p><a href="https://docs.google.com/forms/d/PLACEHOLDER/viewform" target="_blank" rel="noopener">ফর্মটি খোলো (প্লেসহোল্ডার)</a></p>
+    </div>
+  </div>
+
+  <div class="form-embed reveal">
+    <div class="embed-label">নিবন্ধন ফর্ম</div>
+    <iframe
+      class="gform"
+      title="Bbdls সাহিত্য উৎসব নিবন্ধন (প্লেসহোল্ডার)"
+      src="about:blank"
+      loading="lazy"
+      aria-label="নিবন্ধন ফর্ম প্লেসহোল্ডার">
+    </iframe>
+    <p class="embed-fallback">ফর্ম লোড হয়নি? <a href="https://docs.google.com/forms/d/PLACEHOLDER/viewform" target="_blank" rel="noopener">নতুন ট্যাবে খোলো (প্লেসহোল্ডার লিংক)</a>।</p>
+  </div>
+
+  <details class="alt-reg reveal">
+    <summary>মেইলে নিবন্ধন করতে চাও?</summary>
+    <form class="reg-form" id="regForm" action="mailto:litfest@bbdls.example" method="post" enctype="text/plain" novalidate>
+      <div class="field">
+        <label for="name">পুরো নাম <span class="req">*</span></label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+        <span class="err" data-for="name"></span>
+      </div>
+      <div class="field">
+        <label for="email">ইমেইল <span class="req">*</span></label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+        <span class="err" data-for="email"></span>
+      </div>
+      <div class="field">
+        <label for="phone">ফোন</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" />
+        <span class="err" data-for="phone"></span>
+      </div>
+      <div class="field">
+        <label for="division">বিভাগ / ব্যাচ</label>
+        <input id="division" name="division" type="text" placeholder="যেমন: জি, চ, বা অতিথি" />
+      </div>
+
+      <fieldset class="events-pick">
+        <legend>যে ইভেন্টে নাম দিতে চাও <span class="req">*</span></legend>
+        <label class="chk"><input type="checkbox" name="events" value="কবিতা আবৃত্তি" /> কবিতা আবৃত্তি</label>
+        <label class="chk"><input type="checkbox" name="events" value="বিতর্ক ফাইনাল" /> বিতর্ক ফাইনাল</label>
+        <label class="chk"><input type="checkbox" name="events" value="রচনা লিখন" /> রচনা লিখন</label>
+        <label class="chk"><input type="checkbox" name="events" value="ডুয়েট কুইজ" /> ডুয়েট কুইজ</label>
+        <label class="chk"><input type="checkbox" name="events" value="সুন্দর হাতের লেখা" /> সুন্দর হাতের লেখা</label>
+        <label class="chk"><input type="checkbox" name="events" value="সংগীত" /> সংগীত</label>
+        <label class="chk"><input type="checkbox" name="events" value="গল্প বলা" /> গল্প বলা</label>
+        <span class="err" data-for="events"></span>
+      </fieldset>
+
+      <div class="field">
+        <label for="notes">আমাদের জানানো দরকার এমন কিছু?</label>
+        <textarea id="notes" name="notes" rows="4" placeholder="ডুয়েট কুইজের পার্টনার, সংগীতের বাদ্যযন্ত্র, প্রয়োজনীয় সুবিধা..."></textarea>
+      </div>
+
+      <button class="submit-btn" type="submit">নিবন্ধন পাঠাও</button>
+      <p class="form-note" role="status" aria-live="polite" id="formNote"></p>
+    </form>
+  </details>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="brand"><img src="club_logo.webp" alt="Bbdls ক্লাবের প্রতীক" />Bbdls সাহিত্য উৎসব</div>
+  <p>সাহিত্য ও বিতর্ক ক্লাবের উদ্যোগে। অংশ নিতে লিখো <a href="mailto:litfest@bbdls.example">litfest@bbdls.example</a>-এ।</p>
+  <nav class="foot-nav" aria-label="ফুটার">
+    <a href="about.html">পরিচিতি</a><a href="events.html">ইভেন্ট</a><a href="schedule.html">সময়সূচি</a><a href="jury.html">বিচারক</a><a href="committee.html">কমিটি</a><a href="gallery.html">গ্যালারি</a><a href="sponsors.html">স্পন্সর</a><a href="faq.html">জিজ্ঞাসা</a><a href="contact.html">যোগাযোগ</a><a href="register.html">নিবন্ধন</a>
+  </nav>
+  <div class="credit">&copy; ২০২৬ BBDLS &middot; সব শব্দ সংরক্ষিত</div>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+(function(){
+  var form=document.getElementById('regForm');
+  var note=document.getElementById('formNote');
+  if(!form)return;
+  function setErr(name,msg){var e=form.querySelector('.err[data-for="'+name+'"]');if(e)e.textContent=msg||'';}
+  form.addEventListener('submit',function(ev){
+    var ok=true,name=form.name.value.trim(),email=form.email.value.trim();
+    var events=form.querySelectorAll('input[name="events"]:checked');
+    setErr('name','');setErr('email','');setErr('events','');
+    if(!name){setErr('name','তোমার নাম বলো।');ok=false;}
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){setErr('email','একটি বৈধ ইমেইল দাও।');ok=false;}
+    if(events.length===0){setErr('events','কমপক্ষে একটি ইভেন্ট বেছে নাও।');ok=false;}
+    if(!ok){ev.preventDefault();note.textContent='চিহ্নিত ঘরগুলো ঠিক করো।';return;}
+    note.textContent='নিবন্ধন পাঠাতে তোমার মেইল অ্যাপ খোলা হচ্ছে...';
+  });
+})();
+</script>
+</body>
+</html>
